@@ -1,7 +1,6 @@
 var todaysSchedule = ["", "", "", "", "", "", "", "", ""];
 var todayAtMidnight = null;
 var rightNow = new moment();
-var testTime = null;
 
 $(document).ready(function() {
 
@@ -144,5 +143,3 @@ function saveDataBtn (buttonIndex) {
 
     localStorage.setItem("schedule" , JSON.stringify(todaysSchedule));
 }
-
-//schedule  //"[\"something\", \"\", \"\", "lunch", "", "nap", "", "emails"]"
