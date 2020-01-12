@@ -97,7 +97,7 @@ function populateSchedule() {
 
             row.append(description);
 
-                var textArea = $('<textarea style="border: solid;"></textarea>');
+                var textArea = $('<textarea style="border: solid white 1px;"></textarea>');
                 textArea.val(todaysSchedule[i]);
                 description.append(textArea);
 
