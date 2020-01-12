@@ -32,3 +32,5 @@ Result
 
 
 Screenshots have been added to the repository. The live page link is:
+https://armandojhc.github.io/day-planner-/
+
